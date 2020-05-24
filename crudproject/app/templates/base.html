@@ -9,10 +9,10 @@
 </head>
 <body>
   <div class="nav-bar">
-    <div class="nav-item">HOME</div>
-    <div class="nav-item">로그인</div>
-    <div class="nav-item">회원가입</div>
-    <div class="nav-item">로그아웃</div>
+    <a class="nav-item" href="{% url 'home' %}">HOME</a>
+    <a class="nav-item">로그인</a>
+    <a class="nav-item">회원가입</a>
+    <a class="nav-item">로그아웃</a>
   </div>
   {% block content %}
   {% endblock content %}
